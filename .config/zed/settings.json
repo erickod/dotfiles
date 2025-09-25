@@ -2,10 +2,11 @@
   "agent": {
     "model_parameters": [],
     "default_model": {
-      "provider": "lmstudio",
-      "model": "deepseek-ai_-_deepseek-coder-6.7b-instruct"
+      "provider": "openrouter",
+      "model": "google/gemini-2.5-pro"
     }
   },
+  "show_completions_on_input": true,
   "features": {
     "edit_prediction_provider": "zed"
   },
